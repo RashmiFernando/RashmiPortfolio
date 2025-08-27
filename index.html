@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rashmi Fernando - Full Stack Developer & QA Engineer</title>
+
+    <title>Rashmi Fernando - Personal Portfolio</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav id="navbar">
         <div class="nav-container">
             <a href="#home" class="logo">Rashmi Fernando</a>
+
+            <!-- Hamburger Menu Button -->
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -23,91 +34,100 @@
     </nav>
 
     <!-- Hero Section -->
-    <!-- Hero Section -->
-<section id="home" class="hero">
-    <div class="hero-content">
-        <div class="hero-text">
-            <h1>Full Stack Developer & QA Engineer</h1>
-            <p class="subtitle">Building Quality Software from Code to Testing</p>
-            <p>Passionate about creating robust applications and ensuring quality through comprehensive testing. Specialized in both development and quality assurance with expertise in modern technologies.</p>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
-                <a href="#" class="btn btn-secondary" onclick="window.open('./assets/resume-example.pdf')">Download CV</a>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Full Stack Developer & QA Engineer</h1>
+                <p class="subtitle">Building Quality Software from Code to Testing</p>
+                <p>Passionate about creating robust applications and ensuring quality through comprehensive testing.
+                    Specialized in both development and quality assurance with expertise in modern technologies.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#" class="btn btn-secondary"
+                        onclick="window.open('./assets/rashmi-fernando-curriculum-vitae.pdf')">Download
+                        CV</a>
+                </div>
+                <div class="social-buttons">
+                    <a href="https://www.linkedin.com/in/contact-rashmi-fernando/" class="btn btn-social linkedin"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/linkedin.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://github.com/RashmiFernando" class="btn btn-social github" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="./assets/github.png" alt="GitHub" class="social-icon">
+                    </a>
+                </div>
             </div>
-            <div class="social-buttons">
-                <a href="https://www.linkedin.com/in/contact-rashmi-fernando/" class="btn btn-social linkedin" target="_blank" rel="noopener noreferrer">
-                    <img src="./assets/linkedin.png" alt="LinkedIn" class="social-icon">
-                </a>
-                <a href="https://github.com/RashmiFernando" class="btn btn-social github" target="_blank" rel="noopener noreferrer">
-                    <img src="./assets/github.png" alt="GitHub" class="social-icon">
-                </a>
-            </div>
-        </div>
-        
-        <div class="hero-visual">
-            <div class="profile-image">
-                <img src="./assets/about-pic.jpg" alt="Rashmi Fernando" class="profile-pic">
-            </div>
-        </div>
-       
-    </div>
-</section>
 
-<!-- About Section -->
-<section id="about" class="section about">
-  <h2 class="section-title">About Me</h2>
-  <div class="about-content">
-    
-    <!-- Skills column -->
-    <div class="skills-container">
-      <h3 class="skills-title">Technical Skills</h3>
-      
-      <div class="skill-item">
-        <span class="skill-name">Python</span>
-        <div class="skill-bar">
-          <div class="skill-progress python"></div>
+            <div class="hero-visual">
+                <div class="profile-image">
+                    <img src="./assets/about-pic.jpg" alt="Rashmi Fernando" class="profile-pic">
+                </div>
+            </div>
+
         </div>
-      </div>
-      
-      <div class="skill-item">
-        <span class="skill-name">C / C++ / C#</span>
-        <div class="skill-bar">
-          <div class="skill-progress ccs"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+
+            <!-- Skills column -->
+            <div class="skills-container">
+                <h3 class="skills-title">Technical Skills</h3>
+
+                <div class="skill-item">
+                    <span class="skill-name">Python</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress python"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">C / C++ / C#</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress ccs"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">Java</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress java"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">SQL / PL SQL</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress sql"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <span class="skill-name">.NET</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress dotnet"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bio text column -->
+            <div class="about-text">
+                <h3>Hi, I'm Rashmi Fernando</h3>
+                <p>I'm a passionate full‑stack developer and quality assurance engineer with expertise in both building
+                    and testing software applications. My unique combination of development and QA skills allows me to
+                    create robust, high‑quality applications while ensuring they meet the highest standards.</p>
+                <p>Currently pursuing opportunities in Sri Lanka's thriving IT industry, I bring a comprehensive
+                    understanding of the software development lifecycle, from initial design through deployment and
+                    maintenance.</p>
+                <p>When I'm not coding or testing, I enjoy contributing to open‑source projects, learning new
+                    technologies, and sharing knowledge with the developer community.</p>
+            </div>
+
         </div>
-      </div>
-      
-      <div class="skill-item">
-        <span class="skill-name">Java</span>
-        <div class="skill-bar">
-          <div class="skill-progress java"></div>
-        </div>
-      </div>
-      
-      <div class="skill-item">
-        <span class="skill-name">SQL / PL SQL</span>
-        <div class="skill-bar">
-          <div class="skill-progress sql"></div>
-        </div>
-      </div>
-      
-      <div class="skill-item">
-        <span class="skill-name">.NET</span>
-        <div class="skill-bar">
-          <div class="skill-progress dotnet"></div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Bio text column -->
-    <div class="about-text">
-      <h3>Hi, I'm Rashmi Fernando</h3>
-      <p>I'm a passionate full‑stack developer and quality assurance engineer with expertise in both building and testing software applications. My unique combination of development and QA skills allows me to create robust, high‑quality applications while ensuring they meet the highest standards.</p>
-      <p>Currently pursuing opportunities in Sri Lanka's thriving IT industry, I bring a comprehensive understanding of the software development lifecycle, from initial design through deployment and maintenance.</p>
-      <p>When I'm not coding or testing, I enjoy contributing to open‑source projects, learning new technologies, and sharing knowledge with the developer community.</p>
-    </div>
-    
-  </div>
-</section>
+    </section>
 
 
     <!-- Skills Section -->
@@ -128,7 +148,7 @@
                     <span class="skill-tag">Bootstrap</span>
                 </div>
             </div>
-            
+
             <div class="skill-category">
                 <h3><span class="icon">⚙️</span> Backend Development</h3>
                 <div class="skill-tags">
@@ -143,7 +163,7 @@
                     <span class="skill-tag">GraphQL</span>
                 </div>
             </div>
-            
+
             <div class="skill-category">
                 <h3><span class="icon">🗄️</span> Database & Cloud</h3>
                 <div class="skill-tags">
@@ -157,7 +177,7 @@
                     <span class="skill-tag">Firebase</span>
                 </div>
             </div>
-            
+
             <div class="skill-category">
                 <h3><span class="icon">🔧</span> Testing & QA</h3>
                 <div class="skill-tags">
@@ -171,7 +191,7 @@
                     <span class="skill-tag">API Testing</span>
                 </div>
             </div>
-            
+
             <div class="skill-category">
                 <h3><span class="icon">🚀</span> DevOps & Deployment</h3>
                 <div class="skill-tags">
@@ -185,7 +205,7 @@
                     <span class="skill-tag">Vercel</span>
                 </div>
             </div>
-            
+
             <div class="skill-category">
                 <h3><span class="icon">📊</span> Analysis & Management</h3>
                 <div class="skill-tags">
@@ -202,131 +222,115 @@
         </div>
     </section>
 
-   <!-- Projects Section -->
-<section id="projects" class="section">
-  <h2 class="section-title">Featured Projects</h2>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
 
-  <div class="projects-grid">
-    
-    <div class="project-card">
-      <div class="project-image">
-        <img
-          src="./assets/project1.png"
-          alt="E-Commerce Platform screenshot"
-          class="project-img"
-        />
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">E‑Commerce Platform</h3>
-        <p class="project-description">
-          Full‑stack e‑commerce solution with user authentication, payment integration,
-          and admin dashboard. Includes comprehensive testing suite.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">React</span>
-          <span class="tech-tag">Node.js</span>
-          <span class="tech-tag">MongoDB</span>
-          <span class="tech-tag">Stripe</span>
-          <span class="tech-tag">Jest</span>
-        </div>
-        <div class="project-links">
-          <a href="#" class="project-link">Live Demo</a>
-          <a href="#" class="project-link">GitHub</a>
-        </div>
-      </div>
-    </div>
+        <div class="projects-grid">
 
-    <div class="project-card">
-      <div class="project-image">
-        <img
-          src="./assets/project-1.png"
-          alt="Task Management App screenshot"
-          class="project-img"
-        />
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">Task Management App</h3>
-        <p class="project-description">
-          Collaborative task management application with real‑time updates,
-          file sharing, and team collaboration features.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">Vue.js</span>
-          <span class="tech-tag">Express.js</span>
-          <span class="tech-tag">Socket.io</span>
-          <span class="tech-tag">PostgreSQL</span>
-          <span class="tech-tag">Cypress</span>
-        </div>
-        <div class="project-links">
-          <a href="#" class="project-link">Live Demo</a>
-          <a href="#" class="project-link">GitHub</a>
-        </div>
-      </div>
-    </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./assets/project1.png" alt="E-Commerce Platform screenshot" class="project-img" />
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">E‑Commerce Platform</h3>
+                    <p class="project-description">
+                        Full‑stack e‑commerce solution with user authentication, payment integration,
+                        and admin dashboard. Includes comprehensive testing suite.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">Jest</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
 
-    <div class="project-card">
-      <div class="project-image">
-        <img
-          src="./assets/project-2.png"
-          alt="Data Analytics Dashboard screenshot"
-          class="project-img"
-        />
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">Data Analytics Dashboard</h3>
-        <p class="project-description">
-          Interactive dashboard for data visualization and analysis with real‑time
-          charts and customizable reports.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">Python</span>
-          <span class="tech-tag">Django</span>
-          <span class="tech-tag">D3.js</span>
-          <span class="tech-tag">Redis</span>
-          <span class="tech-tag">Selenium</span>
-        </div>
-        <div class="project-links">
-          <a href="#" class="project-link">Live Demo</a>
-          <a href="#" class="project-link">GitHub</a>
-        </div>
-      </div>
-    </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./assets/project-1.png" alt="Task Management App screenshot" class="project-img" />
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Task Management App</h3>
+                    <p class="project-description">
+                        Collaborative task management application with real‑time updates,
+                        file sharing, and team collaboration features.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">Socket.io</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Cypress</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
 
-    <div class="project-card">
-      <div class="project-image">
-        <img
-          src="./assets/project-3.png"
-          alt="Hospital Management System screenshot"
-          class="project-img"
-        />
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">Hospital Management System</h3>
-        <p class="project-description">
-          Comprehensive hospital management system with patient records,
-          appointment scheduling, and billing integration.
-        </p>
-        <div class="project-tech">
-          <span class="tech-tag">Angular</span>
-          <span class="tech-tag">Spring Boot</span>
-          <span class="tech-tag">MySQL</span>
-          <span class="tech-tag">JWT</span>
-          <span class="tech-tag">Postman</span>
-        </div>
-        <div class="project-links">
-          <a href="#" class="project-link">Live Demo</a>
-          <a href="#" class="project-link">GitHub</a>
-        </div>
-      </div>
-    </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./assets/project-2.png" alt="Data Analytics Dashboard screenshot" class="project-img" />
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Data Analytics Dashboard</h3>
+                    <p class="project-description">
+                        Interactive dashboard for data visualization and analysis with real‑time
+                        charts and customizable reports.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">Redis</span>
+                        <span class="tech-tag">Selenium</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
 
-  </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./assets/project-3.png" alt="Hospital Management System screenshot" class="project-img" />
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Hospital Management System</h3>
+                    <p class="project-description">
+                        Comprehensive hospital management system with patient records,
+                        appointment scheduling, and billing integration.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">Postman</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Live Demo</a>
+                        <a href="#" class="project-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
 
-  <!-- View All Projects Button -->
-  <div class="projects-cta">
-    <a href="/projects" class="btn view-all-btn">View All Projects</a>
-  </div>
-</section>
+        </div>
+
+        <!-- View All Projects Button -->
+        <div class="projects-cta">
+            <a href="/projects.html" class="btn view-all-btn">View All Projects</a>
+        </div>
+    </section>
 
 
     <!-- QA Portfolio Section -->
@@ -344,7 +348,7 @@
                     <li>Regression Testing</li>
                 </ul>
             </div>
-            
+
             <div class="qa-card">
                 <h3><span class="icon">🤖</span> Automation Testing</h3>
                 <ul>
@@ -356,7 +360,7 @@
                     <li>CI/CD Integration</li>
                 </ul>
             </div>
-            
+
             <div class="qa-card">
                 <h3><span class="icon">📱</span> Mobile Testing</h3>
                 <ul>
@@ -368,7 +372,7 @@
                     <li>Usability Testing</li>
                 </ul>
             </div>
-            
+
             <div class="qa-card">
                 <h3><span class="icon">🔗</span> API Testing</h3>
                 <ul>
@@ -387,32 +391,34 @@
     <section id="contact" class="section contact">
         <h2 class="section-title">Get In Touch</h2>
         <div class="contact-content">
-           <div class="contact-info">
-			  <h3>Let's Work Together</h3>
-			  <p>
-				I'm always interested in new opportunities and exciting projects. Whether you need a full‑stack developer, QA engineer, or both, I'd love to hear from you.
-			  </p>
-			  <div class="contact-links">
-				<a href="mailto:rashmifernando21@gmail.com" class="contact-link">
-				  <img src="./assets/email.png" alt="Email icon" class="contact-icon">
-				  rashmifernando21@gmail.com
-				</a>
-				<a href="tel:+94759410362" class="contact-link">
-				  <img src="./assets/phone.png" alt="Phone icon" class="contact-icon">
-				  +94 759 410 362
-				</a>
-				<a href="https://www.linkedin.com/in/contact-rashmi-fernando/" class="contact-link" target="_blank" rel="noopener">
-				  <img src="./assets/linkedin.png" alt="LinkedIn icon" class="contact-icon">
-				  LinkedIn Profile
-				</a>
-				<a href="https://github.com/RashmiFernando" class="contact-link" target="_blank" rel="noopener">
-				  <img src="./assets/github.png" alt="GitHub icon" class="contact-icon">
-				  GitHub Profile
-				</a>
-  </div>
-</div>
+            <div class="contact-info">
+                <h3>Let's Work Together</h3>
+                <p>
+                    I'm always interested in new opportunities and exciting projects. Whether you need a full‑stack
+                    developer, QA engineer, or both, I'd love to hear from you.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:rashmifernando21@gmail.com" class="contact-link">
+                        <img src="./assets/email.png" alt="Email icon" class="contact-icon">
+                        rashmifernando21@gmail.com
+                    </a>
+                    <a href="tel:+94759410362" class="contact-link">
+                        <img src="./assets/phone.png" alt="Phone icon" class="contact-icon">
+                        +94 759 410 362
+                    </a>
+                    <a href="https://www.linkedin.com/in/contact-rashmi-fernando/" class="contact-link" target="_blank"
+                        rel="noopener">
+                        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="contact-icon">
+                        LinkedIn Profile
+                    </a>
+                    <a href="https://github.com/RashmiFernando" class="contact-link" target="_blank" rel="noopener">
+                        <img src="./assets/github.png" alt="GitHub icon" class="contact-icon">
+                        GitHub Profile
+                    </a>
+                </div>
+            </div>
 
-            
+
             <div class="contact-form">
                 <form>
                     <div class="form-group">
@@ -429,7 +435,8 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                            required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
@@ -444,7 +451,7 @@
 
     <script>
         // Navbar scroll effect
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const navbar = document.getElementById('navbar');
             if (window.scrollY > 50) {
                 navbar.classList.add('scrolled');
@@ -468,11 +475,47 @@
         });
 
         // Form submission
-        document.querySelector('form').addEventListener('submit', function(e) {
+        document.querySelector('form').addEventListener('submit', function (e) {
             e.preventDefault();
             alert('Thank you for your message! I will get back to you soon.');
             this.reset();
         });
+
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function () {
+                this.classList.toggle('active');
+                navLinks.classList.toggle('active');
+
+                // Prevent body scrolling when menu is open
+                document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
+            });
+
+            // Close menu when clicking on a link
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    menuToggle.classList.remove('active');
+                    navLinks.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', function (e) {
+                const isNavContainer = e.target.closest('.nav-container');
+                const isMenuActive = navLinks.classList.contains('active');
+
+                if (!isNavContainer && isMenuActive) {
+                    menuToggle.classList.remove('active');
+                    navLinks.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+        }
     </script>
 </body>
+
 </html>
